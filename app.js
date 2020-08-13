@@ -1,10 +1,12 @@
 const Koa = require('koa');
 const Router = require('koa-route');
-const bodyParser = require('koa-bodyparser')
+const bodyParser = require('koa-bodyparser');
+const formidable = require('koa2-formidable');
 const {getProxy, postProxy, fileUploadProxy} = require('./src/middlewares');
 
 const app = new Koa();
 
+app.use(formidable())
 app.use(bodyParser());
 app.use(getProxy);
 app.use(postProxy);
