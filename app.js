@@ -38,6 +38,5 @@ app.use( async ( ctx ) => {
     }
   })
   
-  console.log('git')
 
 app.listen(3000);
