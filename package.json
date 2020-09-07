@@ -10,20 +10,28 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-route": "^3.2.0",
-    "koa2-formidable": "^1.0.2"
+    "koa2-formidable": "^1.0.2",
+    "standard-version": "^9.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "commitizen": "^4.2.1",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.0.0-beta.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "standard-version"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
+  },
+  "hooks": {
+    "commit-msg": "commitlint -e $GIT_PARAMS"
   },
   "author": "zhenghaoli",
   "license": "ISC"
