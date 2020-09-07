@@ -1,6 +1,6 @@
 {
   "name": "all-inclusive-backend",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "万象系统node服务",
   "main": "index.js",
   "directories": {},
@@ -10,7 +10,8 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-route": "^3.2.0",
-    "koa2-formidable": "^1.0.2"
+    "koa2-formidable": "^1.0.2",
+    "standard-version": "^9.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
@@ -24,7 +25,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog2": "standard-version"
   },
   "husky": {
     "hooks": {
@@ -33,7 +35,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "node_modules/cz-conventional-changelog"
     }
   },
   "author": "zhenghaoli",
