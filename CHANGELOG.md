@@ -1,8 +1,4 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-## [1.3.0](https://github.com/HolyZheng/koa-proxy-demo/compare/v1.2.0...v1.3.0) (2020-09-09)
+# [1.3.0](https://github.com/HolyZheng/koa-proxy-demo/compare/v1.2.0...v1.3.0) (2020-09-09)
 
 
 ### Features
@@ -10,6 +6,8 @@ All notable changes to this project will be documented in this file. See [standa
 * 继续 ([1d418f9](https://github.com/HolyZheng/koa-proxy-demo/commit/1d418f92dcca74f06fd3abdf68610c1f7085c3de))
 * **config:** jixu继续 ([f7d8934](https://github.com/HolyZheng/koa-proxy-demo/commit/f7d8934103a84b217b3f45a3446b3dceb67d0428))
 * **jixu:** 继续 ([c4bd616](https://github.com/HolyZheng/koa-proxy-demo/commit/c4bd61607f0bca7e254ba48768005b3e5890bf45))
+
+
 
 # [1.2.0](https://github.com/HolyZheng/koa-proxy-demo/compare/v1.1.0...v1.2.0) (2020-09-07)
 
@@ -38,3 +36,6 @@ All notable changes to this project will be documented in this file. See [standa
 * 中间件区分各个转发 ([d5a0dd1](https://github.com/HolyZheng/koa-proxy-demo/commit/d5a0dd16d7d90e249934fe31ed4d2e12df393d3e))
 * 尝试添加changlog ([70469b2](https://github.com/HolyZheng/koa-proxy-demo/commit/70469b2b374720a81527ab5a631be895790e1874))
 * 选择got作为请求库 ([82530ac](https://github.com/HolyZheng/koa-proxy-demo/commit/82530acd07ec062fcdce98cb8f7cd663af86dfcc))
+
+
+

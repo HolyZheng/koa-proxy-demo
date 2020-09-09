@@ -10,8 +10,7 @@
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-route": "^3.2.0",
-    "koa2-formidable": "^1.0.2",
-    "standard-version": "^9.0.0"
+    "koa2-formidable": "^1.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
@@ -25,8 +24,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "changelog2": "standard-version"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "husky": {
     "hooks": {
